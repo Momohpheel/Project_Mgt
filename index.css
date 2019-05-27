@@ -1,0 +1,81 @@
+div#form{
+	float:right;
+	position: absolute;
+	top:250px;
+	right: 220px;
+}
+div#rform{
+	float:right;
+	position: absolute;
+	top:210px;
+	right: 220px;
+}
+div#links{
+	position:absolute;
+	
+}
+div#color{
+	float:left;
+	width: 700px;
+	height: 680px;
+	border: 1px solid black;
+	background-color: black;
+	
+	opacity: 0.6;
+
+}
+div#buttons{
+	display:inline-block;
+	float:left;
+	line-height: auto;
+	max-height:auto;
+	position:absolute;
+	border: 1px solid grey;
+	width: 300px;
+	height: 680px;
+	background-color:black;
+
+}
+div#buttons li{
+	color:white;
+	margin:20px;
+	list-style-type:none;
+
+}
+div#buttons li a{
+	color:white;
+	padding:20px;
+
+}
+div#buttons li a#active{
+	color:black;
+	background-color:white;
+	border-radius: 5px 5px 5px 5px;
+}
+div#buttons li a:hover{
+	color:black;
+	background-color:white;
+	border-radius: 5px 5px 5px 5px;
+}
+div#lout{
+	position:relative;
+	float:right;
+	left: 200px;
+	margin:5px;
+}
+div#lout a{
+	text-decoration:none;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 7px 7px 7px 7px;
+	background-color: #777;
+	color:white;
+}
+div#lout a:hover{
+	width: 30px;
+	height: 50px;
+	border: 1px solid black;
+	background-color: red;
+	color:white;
+	box-shadow:2px 2px 4px black;
+}
